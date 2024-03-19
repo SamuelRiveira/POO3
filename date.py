@@ -18,7 +18,6 @@ class Date:
         month = input("Dame el mes")
         year = input("Dame el año")
         if day == minMax["min"]["day"]:
-            print("puta")
 
     @staticmethod
     def is_leap_year(year: int) -> bool:
