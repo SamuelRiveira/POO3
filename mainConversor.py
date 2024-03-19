@@ -1,8 +1,9 @@
 from conversor import Conversor
 
 def main()-> None:
-    numero = Conversor(44)
-    numero.convertir()
+    numero = Conversor(944)
+    numero.convertirARomano()
+    numero.convertirANumero()
 
 if __name__ == "__main__":
     main()
