@@ -1,4 +1,4 @@
-from contactos import Filewriter
+from csvwriter import Filewriter
 
 if __name__ == "__main__":
     def main():
